@@ -16,7 +16,7 @@ namespace StopRandomInvite.Commands.InviteToggle
             if (String.Equals(input, "on", StringComparison.OrdinalIgnoreCase))
             {
                 player.svPlayer.CustomData.AddOrUpdate("invitetoggle", "true");
-                player.svPlayer.SendGameMessage("〔<color=#546eff>StopRandomInvite</color>〕 |  Now everyone can invite you to their home.");
+                player.svPlayer.SendGameMessage("〔<color=#546eff>StopRandomInvite</color>〕 |  Now everyone can invite you to their home");
             }
             else if (String.Equals(input, "off", StringComparison.OrdinalIgnoreCase))
             {
